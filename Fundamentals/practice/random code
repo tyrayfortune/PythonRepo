@@ -1,0 +1,24 @@
+class User:
+    def __init__(self, account):
+        self.account = self.account
+
+    def display_user_balance(self):
+        print(self.account)
+        return self
+
+
+    def make_deposit(self, amount):
+        self.account += amount
+        return self
+
+    def make_withdrawl(self, amount):
+        self.account -= amount
+        return self
+
+
+
+tyray = BankAccount(name = "Tyray")
+tyray.deposit(10 + 10 + 10).withdraw(50).yield_interest().display_account_info()
+
+jack = BankAccount(name = "Jack")
+jack.deposit(100 + 50).withdraw(10 * 4).yield_interest().display_account_info()

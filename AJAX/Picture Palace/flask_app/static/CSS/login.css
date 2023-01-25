@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    min-height: 1000px;
+    min-width: 1000px;
+    padding-top: 15%;
+    background-color: aqua;
+}
+
+#login{
+    width: 300px;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.not_registered{
+    margin-top: 20px;
+    margin-right: 40%;
+    margin-left: 40%;
+}

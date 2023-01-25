@@ -1,0 +1,1 @@
+SELECT * FROM java_project_schema.stories;

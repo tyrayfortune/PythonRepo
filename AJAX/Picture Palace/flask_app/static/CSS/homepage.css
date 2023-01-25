@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    min-width: 100%;
+    min-height: 1000px;
+/* change height later to percent when adjusted */
+    background-color: aqua;
+}
+
+/* .nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(192, 192, 192);
+}
+
+.btn{
+    background-color:rgb(133, 36, 36);
+    color: white;
+    border: 2px solid rgb(31, 21, 21);
+    box-shadow: black 5px 5px 5px;
+}
+
+#active{
+    color: white;
+}
